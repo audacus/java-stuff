@@ -1,3 +1,7 @@
+// delcare in whih package this class is
+// packages are used to order all classes and prevent naming conflicts
+package Person;
+
 // importing classes that are not accessible by default
 // find the class package in the documentation
 import java.lang.Math;
@@ -6,7 +10,7 @@ import java.util.InputMismatchException;
 
 // class definition
 // has to be the same as the file name without .java
-// public means that the class can be accessed from outside the package it is in (if it is in a package)
+// public means that the class can be accessed from outside the package it is in
 // classes begin with a capitalized letter and use CamelCase e.g. SomeFancyClassNameThatIsReadableBecauseOfCamelCase
 // classes are like things
 public class Person {
