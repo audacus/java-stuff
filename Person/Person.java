@@ -8,9 +8,9 @@ import java.util.InputMismatchException;
 // has to be the same as the file name without .java
 // public means that the class can be accessed from outside the package it is in (if it is in a package)
 // classes begin with a capitalized letter and use CamelCase e.g. SomeFancyClassNameThatIsReadableBecauseOfCamelCase
-// classes are like things 
+// classes are like things
 public class Person {
-    
+
     // class property
     // class properties are usually defined at the top of the class
     // class properties define the properties of a class like properties of a thing
@@ -18,26 +18,26 @@ public class Person {
     // this is NOT a initialization, the variable "age" has no value and is not initialized
     // protected means it not accessible from outside the class but for the class itself and all sublcasses that extend this class
     protected int age;
-    
+
     // variable declaration and initialization, the variable "eyeColor" has the value "brown"
     // priavte means it is only accessible in this class
     // String is not a primitive data type as for example int, double or boolean
     // String is a Class and so "eyeColor" is an instance of a String and so "eyeColor" is an object
     private String eyeColor = "brown";
-    
+
     // variable declaration and initialization
     // public means it is accessible from outside the class
     /**
      * Javadoc comment telling that this variable named "height" tells the height of the person in meter for understanding reasons.
      */
     public double height = 1.8;
-    
+
     // static means this variable is declared and initialized even when no instance of this class was created
     // final means the value of this variable cannot be changed
     // a final static variable is called "constant"
     // constants are named using all capital letters and underscores to seperate words
     public static final double METER_TO_FEET_MULTIPLIER = 3.28084;
-    
+
     // main method
     // gets called automatically when "running this class"
     // must be defined in the "main class" (starting class) of the project to "launch the application"
@@ -62,9 +62,9 @@ public class Person {
         }
         person.setHeightMeters(height);
         System.out.println("height in feet: " + person.getHeightInFeet());
-        
+
     }
-    
+
     // class method
     // class methods are usually defined below the class properties
     // public means this method can be accessed from outside the class
@@ -81,7 +81,7 @@ public class Person {
         return eyeColor;
         // after the return statement the method is finished and no more code inside the method is executed
     }
-    
+
     // void means that this method does not return any value
     // the method arguments are declared within the brackets
     // "double height" means the method expects one argument of the type double and this argument has the name "height" inside the method
@@ -92,7 +92,7 @@ public class Person {
         // with this method we can change the height of a person during runtime
         this.height = height;
     }
-    
+
     // do fancy stuff
     public double getHeightInFeet() {
         int min = 42;
