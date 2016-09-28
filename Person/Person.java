@@ -55,14 +55,14 @@ public class Person {
         double height = person.height;
         Scanner scanner;
         while (true) {
-        	scanner = new Scanner(System.in);
-        	System.out.print("Enter your height in meters: ");
-        	try {
-        		height = scanner.nextDouble();
-        		break;
-        	} catch (InputMismatchException e) {
-        		System.out.println("\nEnter a valid number!\n");
-        	}
+            scanner = new Scanner(System.in);
+            System.out.print("Enter your height in meters: ");
+            try {
+                height = scanner.nextDouble();
+                break;
+            } catch (InputMismatchException e) {
+                System.out.println("\nEnter a valid number!\n");
+            }
         }
         person.setHeightMeters(height);
         System.out.println("height in feet: " + person.getHeightInFeet());
