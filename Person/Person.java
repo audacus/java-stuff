@@ -66,7 +66,6 @@ public class Person {
         }
         person.setHeightMeters(height);
         System.out.println("height in feet: " + person.getHeightInFeet());
-
     }
 
     // class method
