@@ -64,6 +64,7 @@ public class Person {
                 System.out.println("\nEnter a valid number!\n");
             }
         }
+        scanner.close();
         person.setHeightMeters(height);
         System.out.println("height in feet: " + person.getHeightInFeet());
     }
