@@ -1,4 +1,4 @@
-package Salary;
+package salary;
 
 public class Salary implements Comparable<Salary> {
 

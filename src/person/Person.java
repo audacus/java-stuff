@@ -1,6 +1,6 @@
 // delcare in whih package this class is
 // packages are used to order all classes and prevent naming conflicts
-package Person;
+package person;
 
 // importing classes that are not accessible by default
 // find the class package in the documentation
